@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lANG="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>EventLisstener</title>
+    <style>
+        body{
+            display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+        }
+        .watch{
+            margin: 20px;
+            width:300px;
+            height:400px;
+            background-color: purple;
+            border-radius: 10px;
+        }
+        ol{
+            height: 120px;
+            overflow-y: scroll;
+            width: 250px;
+            align-items: center;
+            background-color: grey;
+            margin-left: 10px;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+        h1{
+            padding-left: 45px;
+            margin: 20px;
+            background-color: grey;
+            border-radius: 10px;
+            border-color: black;
+        }
+        button{
+            border-radius: 5px;
+            width:70px;
+            margin:35px;
+            background-color: silver;
+        }
+        p{
+            margin-top:1px;
+        }    
+    </style>
+</head>
+<body style="background:url('./kaisen.jpg')">   
+    <div class="watch">
+        <h1>00:00:00:00</h1>
+        <button class="start">START</button>
+        <button class="stop">STOP</button>
+        <button class="reset">RESET</button>
+        <button class="lap">LAP</button>
+        <ol>
+            <p>lap: </p>
+        </ol>
+    </div>
+	<script src="lab10.js"></script>
+</body>
+</html>
